@@ -1,436 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Retroskeree1205 | ASIR Developer</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Portfolio</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
-<!-- Navigation -->
-<nav class="navbar">
-    <div class="container">
-        <div class="nav-wrapper">
-            <div class="logo">
-                <a href="#home">
-                    <i class="fas fa-code"></i> Retroskeree
-                </a>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div>
+<header>
+<nav>
+<h1 class="logo">MiPortfolio</h1>
+
+<ul class="nav-links">
+<li><a href="#about">Sobre mí</a></li>
+<li><a href="#projects">Proyectos</a></li>
+<li><a href="#contact">Contacto</a></li>
+</ul>
 </nav>
+</header>
 
-<!-- Hero Section -->
-<section id="home" class="hero">
-    <div class="container">
-        <div class="hero-content">
-            <h1 class="hero-title">Hi, I'm <span class="gradient-text">Retroskeree</span></h1>
-            <p class="hero-subtitle">Systems Administrator (ASIR) | Full-Stack Developer | Tech Enthusiast</p>
-            <p class="hero-description">Building scalable systems, automating infrastructure, and creating elegant solutions. Currently learning Python, JavaScript, Java, and cloud technologies.</p>
-            <div class="hero-buttons">
-                <a href="#projects" class="btn btn-primary">View My Work</a>
-                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
-            </div>
-            <div class="social-links">
-                <a href="https://github.com/Retroskeree1205" target="_blank" class="social-icon">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://linkedin.com" target="_blank" class="social-icon">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://twitter.com" target="_blank" class="social-icon">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </div>
-        </div>
-        <div class="hero-image">
-            <div class="floating-card">
-                <i class="fas fa-laptop-code"></i>
-            </div>
-        </div>
-    </div>
+<section class="hero">
+<div class="hero-content">
+
+<h2>Hola, soy <span>Tu Nombre</span></h2>
+<p>Desarrollador Web | UI Designer | Creativo Digital</p>
+
+<a href="#projects" class="btn">Ver proyectos</a>
+
+</div>
 </section>
 
-<!-- About Section -->
 <section id="about" class="about">
-    <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="about-grid">
-            <div class="about-text">
-                <h3>Systems Administrator & Developer</h3>
-                <p>I'm passionate about building robust infrastructure and solving complex technical challenges. With a background in ASIR (Administración de Sistemas Informáticos en Red), I combine systems administration expertise with modern development skills.</p>
-                <p>My journey in tech focuses on automation, cloud infrastructure, and creating tools that make systems run smoothly. I believe in continuous learning and staying updated with the latest technologies.</p>
-                <p>When I'm not coding or managing systems, you'll find me exploring new technologies, contributing to open-source projects, or helping others in the tech community.</p>
-                <div class="about-stats">
-                    <div class="stat">
-                        <h4>5+</h4>
-                        <p>Projects</p>
-                    </div>
-                    <div class="stat">
-                        <h4>3+</h4>
-                        <p>Languages</p>
-                    </div>
-                    <div class="stat">
-                        <h4>100%</h4>
-                        <p>Dedicated</p>
-                    </div>
-                </div>
-            </div>
-            <div class="about-image">
-                <div class="image-placeholder">
-                    <i class="fas fa-user-circle"></i>
-                </div>
-            </div>
-        </div>
-    </div>
+<h2>Sobre mí</h2>
+
+<p>
+Soy desarrollador web especializado en crear experiencias modernas,
+rápidas y elegantes para internet.
+</p>
+
 </section>
 
-<!-- Skills Section -->
-<section id="skills" class="skills">
-    <div class="container">
-        <h2 class="section-title">Technical Skills</h2>
-        <div class="skills-grid">
-            <!-- Programming Languages -->
-            <div class="skill-category">
-                <h3>Programming Languages</h3>
-                <div class="skill-list">
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span>Python</span>
-                            <span class="level">Medium</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 65%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span>JavaScript</span>
-                            <span class="level">Beginner-Medium</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 55%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span>Java</span>
-                            <span class="level">Beginner</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 45%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span>Bash/Shell</span>
-                            <span class="level">Medium</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 60%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Systems & Infrastructure -->
-            <div class="skill-category">
-                <h3>Systems & Infrastructure</h3>
-                <div class="skill-list">
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span>Linux Administration</span>
-                            <span class="level">Medium</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 60%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span>Networking & TCP/IP</span>
-                            <span class="level">Beginner-Medium</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 55%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span>Docker & Containers</span>
-                            <span class="level">Beginner</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 40%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span>Git & Version Control</span>
-                            <span class="level">Medium</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 70%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tools & Platforms -->
-            <div class="skill-category">
-                <h3>Tools & Platforms</h3>
-                <div class="skill-tags">
-                    <span class="tag">Visual Studio Code</span>
-                    <span class="tag">GitHub</span>
-                    <span class="tag">Linux</span>
-                    <span class="tag">Windows Server</span>
-                    <span class="tag">SQL</span>
-                    <span class="tag">Bash</span>
-                    <span class="tag">HTML/CSS</span>
-                    <span class="tag">Node.js</span>
-                    <span class="tag">Ansible</span>
-                    <span class="tag">Virtualization</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Projects Section -->
 <section id="projects" class="projects">
-    <div class="container">
-        <h2 class="section-title">Featured Projects</h2>
-        <div class="projects-grid">
 
-            <!-- Project 1 -->
-            <div class="project-card">
-                <div class="project-image">
-                    <div class="image-placeholder">
-                        <i class="fas fa-python"></i>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3>System Info Collector</h3>
-                    <p>Python script that gathers system information (CPU, RAM, disk usage, network stats) and exports to JSON/CSV formats.</p>
-                    <div class="project-tags">
-                        <span>Python</span>
-                        <span>Systems Admin</span>
-                        <span>Automation</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="btn btn-small">View Code</a>
-                        <a href="#" class="btn btn-small btn-outline">Live Demo</a>
-                    </div>
-                </div>
-            </div>
+<h2>Proyectos</h2>
 
-            <!-- Project 2 -->
-            <div class="project-card">
-                <div class="project-image">
-                    <div class="image-placeholder">
-                        <i class="fas fa-network-wired"></i>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3>Network Monitoring Tool</h3>
-                    <p>Bash script for network diagnostics including ping, port scanning, and connection monitoring with detailed reporting.</p>
-                    <div class="project-tags">
-                        <span>Bash</span>
-                        <span>Networking</span>
-                        <span>Monitoring</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="btn btn-small">View Code</a>
-                        <a href="#" class="btn btn-small btn-outline">Live Demo</a>
-                    </div>
-                </div>
-            </div>
+<div class="grid">
 
-            <!-- Project 3 -->
-            <div class="project-card">
-                <div class="project-image">
-                    <div class="image-placeholder">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3>Dashboard Analytics</h3>
-                    <p>Interactive web dashboard built with JavaScript and HTML/CSS for visualizing server metrics and system performance.</p>
-                    <div class="project-tags">
-                        <span>JavaScript</span>
-                        <span>HTML/CSS</span>
-                        <span>Analytics</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="btn btn-small">View Code</a>
-                        <a href="#" class="btn btn-small btn-outline">Live Demo</a>
-                    </div>
-                </div>
-            </div>
+<div class="card">
+<h3>Proyecto 1</h3>
+<p>Descripción corta del proyecto.</p>
+</div>
 
-            <!-- Project 4 -->
-            <div class="project-card">
-                <div class="project-image">
-                    <div class="image-placeholder">
-                        <i class="fas fa-lock"></i>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3>File Backup Automation</h3>
-                    <p>Automated backup solution using Python and scheduled tasks for incremental backups with compression and encryption.</p>
-                    <div class="project-tags">
-                        <span>Python</span>
-                        <span>Automation</span>
-                        <span>Backup</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="btn btn-small">View Code</a>
-                        <a href="#" class="btn btn-small btn-outline">Live Demo</a>
-                    </div>
-                </div>
-            </div>
+<div class="card">
+<h3>Proyecto 2</h3>
+<p>Descripción corta del proyecto.</p>
+</div>
 
-            <!-- Project 5 -->
-            <div class="project-card">
-                <div class="project-image">
-                    <div class="image-placeholder">
-                        <i class="fas fa-tasks"></i>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3>Task Manager App</h3>
-                    <p>Full-stack task management application with JavaScript frontend and backend, featuring user authentication and storage.</p>
-                    <div class="project-tags">
-                        <span>JavaScript</span>
-                        <span>Full-Stack</span>
-                        <span>Web App</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="btn btn-small">View Code</a>
-                        <a href="#" class="btn btn-small btn-outline">Live Demo</a>
-                    </div>
-                </div>
-            </div>
+<div class="card">
+<h3>Proyecto 3</h3>
+<p>Descripción corta del proyecto.</p>
+</div>
 
-            <!-- Project 6 -->
-            <div class="project-card">
-                <div class="project-image">
-                    <div class="image-placeholder">
-                        <i class="fas fa-code"></i>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3>Configuration Manager</h3>
-                    <p>Java application for managing system configurations across multiple servers with YAML/JSON support.</p>
-                    <div class="project-tags">
-                        <span>Java</span>
-                        <span>Configuration</span>
-                        <span>Management</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="btn btn-small">View Code</a>
-                        <a href="#" class="btn btn-small btn-outline">Live Demo</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+</div>
+
 </section>
 
-<!-- Contact Section -->
 <section id="contact" class="contact">
-    <div class="container">
-        <h2 class="section-title">Get In Touch</h2>
-        <p class="section-subtitle">Have a project in mind? Let's collaborate!</p>
-        <div class="contact-grid">
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <div>
-                        <h4>Email</h4>
-                        <p>your.email@example.com</p>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <div>
-                        <h4>Location</h4>
-                        <p>Your City, Country</p>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <div>
-                        <h4>Phone</h4>
-                        <p>+1 (555) 123-4567</p>
-                    </div>
-                </div>
-            </div>
-            <form class="contact-form" id="contactForm">
-                <div class="form-group">
-                    <input type="text" placeholder="Your Name" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group">
-                    <input type="text" placeholder="Subject" required>
-                </div>
-                <div class="form-group">
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
-        </div>
-    </div>
+
+<h2>Contacto</h2>
+
+<p>Email: contacto@email.com</p>
+
 </section>
 
-<!-- Footer -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h4>About</h4>
-                <p>ASIR Systems Administrator & Full-Stack Developer focused on building scalable solutions and automation tools.</p>
-            </div>
-            <div class="footer-section">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Follow Me</h4>
-                <div class="social-links">
-                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Retroskeree. All rights reserved. Built with <i class="fas fa-heart"></i> using HTML, CSS & JavaScript</p>
-        </div>
-    </div>
+<footer>
+<p>© 2026 Tu Nombre</p>
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
