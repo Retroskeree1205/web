@@ -138,3 +138,41 @@ padding:30px;
 background:#111;
 margin-top:50px;
 }
+
+
+.socials{
+display:flex;
+justify-content:center;
+gap:25px;
+}
+
+.icon{
+width:60px;
+height:60px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+
+font-size:22px;
+color:white;
+text-decoration:none;
+
+border:2px solid #ff00ff;
+box-shadow:0 0 10px #ff00ff;
+
+transition:0.3s;
+}
+
+.icon:hover{
+transform:scale(1.1);
+box-shadow:0 0 20px #ff00ff, 0 0 40px #8a2be2;
+}
+
+.more{
+display:block;
+margin-top:40px;
+color:#8a2be2;
+text-decoration:none;
+font-size:14px;
+}
